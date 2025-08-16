@@ -13,13 +13,16 @@ import xml.etree.ElementTree as ET
 logger = logging.getLogger(__name__)
 
 albumentations_params = A.BboxParams(
-        format="pascal_voc",
-        label_fields=["class_labels"],
-    )
+    format="pascal_voc",
+    label_fields=["class_labels"],
+)
+
 
 def extract_all(xml_file, visibilities=None, empty=False):
     """
 
+    :param empty: allow no boundary boxes?
+    :type empty: bool
     :param xml_file: path to annotations.xml file
     :type xml_file: str
     :param visibilities: filter bboxes by their visibility inclusion
@@ -37,13 +40,14 @@ def extract_all(xml_file, visibilities=None, empty=False):
         fn = next(filter(lambda n: n.startswith(fn), filez))
         assert fn is not None
 
-        img_boxes= []
+        img_boxes = []
         for box in image.iter('box'):
 
             if visibilities is not None:
                 attribute = box.find('attribute')
                 assert attribute is not None, "visibility specified but no attribute tag was found"
-                assert attribute.get('name') == 'visibility', "visibility was specified but first attribute isnt visibility"
+                assert attribute.get(
+                    'name') == 'visibility', "visibility was specified but first attribute isnt visibility"
 
                 if attribute.text not in visibilities:
                     logging.debug(f"skipping bbox of {fn} because visiblity {attribute.text} is not in {visibilities}")
@@ -55,16 +59,20 @@ def extract_all(xml_file, visibilities=None, empty=False):
                 float(box.get('xbr')),
                 float(box.get('ybr'))
             ])
-        if not empty and len(img_boxes) == 0:
+        if (not empty) and (len(img_boxes) == 0):
+            print(fn, "is empty")
             continue
+
+        print(len(img_boxes))
+
         images.append(str(path.parent / "images" / fn))
         boxes.append(img_boxes)
 
-
     return images, boxes
 
+
 class CustomImageDataset(t.utils.data.Dataset):
-    def __init__(self, path_images, boxes, labels = None, transform = None):
+    def __init__(self, path_images, boxes, labels=None, transform=None):
         """
         :param path_images: path to images
         :type path_images: list[str]
@@ -90,10 +98,12 @@ class CustomImageDataset(t.utils.data.Dataset):
         """
         # read image as numpy array (H,W,C) for albumentations
         image = tv.io.read_image(self.path_images[index], tv.io.ImageReadMode.RGB)
-        image = image.permute(1, 2, 0).numpy()  # C,H,W -> H,W,C
+        image = image.permute(1, 2, 0).numpy()
+
+        # C,H,W -> H,W,C
 
         boxes = self.boxes[index]
-        labels = self.labels[index] if self.labels is not None else [1]*len(boxes)
+        labels = self.labels[index] if self.labels is not None else [1] * len(boxes)
 
         # apply Albumentations transform (if any)
         if self.transform:
@@ -102,7 +112,7 @@ class CustomImageDataset(t.utils.data.Dataset):
                 bboxes=boxes,
                 class_labels=labels
             )
-            image = transformed['image']                 # Tensor[C,H,W] from ToTensorV2
+            image = transformed['image']  # Tensor[C,H,W] from ToTensorV2
             boxes = transformed['bboxes']
             labels = transformed['class_labels']
 
@@ -111,11 +121,17 @@ class CustomImageDataset(t.utils.data.Dataset):
         labels = t.tensor(labels, dtype=t.int64)
 
         # compute area
-        areas = (boxes[:,2] - boxes[:,0]) * (boxes[:,3] - boxes[:,1])
-        areas = t.tensor(areas, dtype=t.float32)
+        if boxes.shape[0] == 0:
+            areas = t.tensor([0.0], dtype=t.float32)
+        else:
+            areas = (boxes[:, 2] - boxes[:, 0]) * (boxes[:, 3] - boxes[:, 1])
+            areas = t.tensor(areas, dtype=t.float32)
 
         # image id
         image_id = t.tensor([index])
+
+        if isinstance(image, np.ndarray): # for datasets without transform and ToTensor
+            image = t.from_numpy(image).permute(2, 0, 1) # change H,W,C to C,H,W
 
         target = {
             "boxes": boxes,
