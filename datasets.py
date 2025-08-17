@@ -60,10 +60,8 @@ def extract_all(xml_file, visibilities=None, empty=False):
                 float(box.get('ybr'))
             ])
         if (not empty) and (len(img_boxes) == 0):
-            print(fn, "is empty")
+            logging.info(fn, "is empty")
             continue
-
-        print(len(img_boxes))
 
         images.append(str(path.parent / "images" / fn))
         boxes.append(img_boxes)
@@ -123,9 +121,13 @@ class CustomImageDataset(t.utils.data.Dataset):
         # compute area
         if boxes.shape[0] == 0:
             areas = t.tensor([0.0], dtype=t.float32)
+            boxes = t.zeros((0, 4), dtype=t.float32)
+            logging.info(f"no bboxes found, mocked. index={index}")
         else:
-            areas = (boxes[:, 2] - boxes[:, 0]) * (boxes[:, 3] - boxes[:, 1])
-            areas = t.tensor(areas, dtype=t.float32)
+            areas = (boxes[:, 2] - boxes[:, 0]) * (boxes[:, 3] - boxes[:, 1]).detach().clone().type(t.float32)
+            # areas = t.tensor(areas, dtype=t.float32)
+            #  UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+            #   areas = t.tensor(areas, dtype=t.float32)
 
         # image id
         image_id = t.tensor([index])
