@@ -1,0 +1,413 @@
+[
+  {
+    "model": 1,
+    "val_map": 0.032504625618457794,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "enable_affine": true,
+      "color_jitter_brightness": 0.3,
+      "color_jitter_contrast": 0.1,
+      "color_jitter_saturation": 0.3,
+      "color_jitter_hue": 0.1,
+      "enable_affine_scale": true,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": false,
+      "affine_scale_min": 0.15,
+      "affine_scale_max": 0.3
+    }
+  },
+  {
+    "model": 2,
+    "val_map": 0.04426325112581253,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    }
+  },
+  {
+    "model": 3,
+    "val_map": 0.030274180695414543,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    }
+  },
+  {
+    "model": 4,
+    "val_map": 0.028162816539406776,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "enable_affine": false,
+      "color_jitter_brightness": 0.1,
+      "color_jitter_contrast": 0.2,
+      "color_jitter_saturation": 0.4,
+      "color_jitter_hue": 0.2
+    }
+  },
+  {
+    "model": 5,
+    "val_map": 0.018107034265995026,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "enable_affine": true,
+      "color_jitter_brightness": 0.2,
+      "color_jitter_contrast": 0.5,
+      "color_jitter_saturation": 0.3,
+      "color_jitter_hue": 0.2,
+      "enable_affine_scale": true,
+      "enable_affine_rotate": true,
+      "enable_affine_shear": false,
+      "affine_scale_min": 0.05,
+      "affine_scale_max": 0.5,
+      "affine_rotate_min": -15,
+      "affine_rotate_max": 18
+    }
+  },
+  {
+    "model": 6,
+    "val_map": 0.029570957645773888,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "enable_affine": true,
+      "color_jitter_brightness": 0.4,
+      "color_jitter_contrast": 0.5,
+      "color_jitter_saturation": 0.1,
+      "color_jitter_hue": 0.15,
+      "enable_affine_scale": true,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": false,
+      "affine_scale_min": 0.15,
+      "affine_scale_max": 0.4
+    }
+  },
+  {
+    "model": 7,
+    "val_map": 0.0445544570684433,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    }
+  },
+  {
+    "model": 8,
+    "val_map": 0.025971530005335808,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": false,
+      "affine_scale_min": 0.15,
+      "affine_scale_max": 0.3
+    }
+  },
+  {
+    "model": 9,
+    "val_map": 0.007309636101126671,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "enable_affine": true,
+      "color_jitter_brightness": 0.3,
+      "color_jitter_contrast": 0.3,
+      "color_jitter_saturation": 0.2,
+      "color_jitter_hue": 0.2,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": true,
+      "enable_affine_shear": true,
+      "affine_rotate_min": -15,
+      "affine_rotate_max": 15,
+      "affine_shear_min": -20,
+      "affine_shear_max": 15
+    }
+  },
+  {
+    "model": 10,
+    "val_map": 0.042904291301965714,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    }
+  },
+  {
+    "model": 11,
+    "val_map": 0.031406860798597336,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": true,
+      "enable_affine_shear": false,
+      "affine_rotate_min": -20,
+      "affine_rotate_max": 15
+    }
+  },
+  {
+    "model": 12,
+    "val_map": 0.029702970758080482,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": true,
+      "affine_scale_min": 0.1,
+      "affine_scale_max": 0.2,
+      "affine_shear_min": -20,
+      "affine_shear_max": 18
+    }
+  },
+  {
+    "model": 13,
+    "val_map": 0.03330333158373833,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": true,
+      "enable_affine": false,
+      "color_jitter_brightness": 0.5,
+      "color_jitter_contrast": 0.1,
+      "color_jitter_saturation": 0.4,
+      "color_jitter_hue": 0.15
+    }
+  },
+  {
+    "model": 14,
+    "val_map": 0.033368442207574844,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    }
+  },
+  {
+    "model": 15,
+    "val_map": 0.02447744831442833,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    }
+  },
+  {
+    "model": 16,
+    "val_map": 0.042118918150663376,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "enable_affine": false,
+      "color_jitter_brightness": 0.2,
+      "color_jitter_contrast": 0.1,
+      "color_jitter_saturation": 0.3,
+      "color_jitter_hue": 0.15
+    }
+  },
+  {
+    "model": 17,
+    "val_map": 0.03132566809654236,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": true,
+      "enable_affine": true,
+      "color_jitter_brightness": 0.3,
+      "color_jitter_contrast": 0.1,
+      "color_jitter_saturation": 0.3,
+      "color_jitter_hue": 0.1,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": true,
+      "affine_shear_min": -18,
+      "affine_shear_max": 20
+    }
+  },
+  {
+    "model": 18,
+    "val_map": 0.0476190485060215,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    }
+  },
+  {
+    "model": 19,
+    "val_map": 0.0294490996748209,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": true,
+      "enable_affine": true,
+      "color_jitter_brightness": 0.2,
+      "color_jitter_contrast": 0.4,
+      "color_jitter_saturation": 0.1,
+      "color_jitter_hue": 0.15,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": true,
+      "affine_shear_min": -15,
+      "affine_shear_max": 18
+    }
+  },
+  {
+    "model": 20,
+    "val_map": 0.04506158083677292,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": true,
+      "affine_shear_min": -15,
+      "affine_shear_max": 18
+    }
+  },
+  {
+    "model": 21,
+    "val_map": 0.03356677293777466,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "enable_affine": false,
+      "color_jitter_brightness": 0.3,
+      "color_jitter_contrast": 0.1,
+      "color_jitter_saturation": 0.4,
+      "color_jitter_hue": 0.15
+    }
+  },
+  {
+    "model": 22,
+    "val_map": 0.0380406454205513,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    }
+  },
+  {
+    "model": 23,
+    "val_map": 0.03600287437438965,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "enable_affine": true,
+      "color_jitter_brightness": 0.3,
+      "color_jitter_contrast": 0.4,
+      "color_jitter_saturation": 0.1,
+      "color_jitter_hue": 0.2,
+      "enable_affine_scale": true,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": true,
+      "affine_scale_min": 0.15,
+      "affine_scale_max": 0.5,
+      "affine_shear_min": -15,
+      "affine_shear_max": 15
+    }
+  },
+  {
+    "model": 24,
+    "val_map": 0.03557022288441658,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    }
+  },
+  {
+    "model": 25,
+    "val_map": 0.016585679724812508,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "enable_affine_rotate": true,
+      "enable_affine_shear": false,
+      "affine_scale_min": 0.05,
+      "affine_scale_max": 0.2,
+      "affine_rotate_min": -20,
+      "affine_rotate_max": 18
+    }
+  },
+  {
+    "model": 26,
+    "val_map": 0.04426325112581253,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    }
+  },
+  {
+    "model": 27,
+    "val_map": 0.04702107235789299,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "enable_affine": false,
+      "color_jitter_brightness": 0.1,
+      "color_jitter_contrast": 0.3,
+      "color_jitter_saturation": 0.5,
+      "color_jitter_hue": 0.15
+    }
+  },
+  {
+    "model": 28,
+    "val_map": 0.02963561750948429,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "enable_affine": true,
+      "color_jitter_brightness": 0.5,
+      "color_jitter_contrast": 0.5,
+      "color_jitter_saturation": 0.3,
+      "color_jitter_hue": 0.2,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": false
+    }
+  },
+  {
+    "model": 29,
+    "val_map": 0.020792080089449883,
+    "config": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": false,
+      "affine_scale_min": 0.1,
+      "affine_scale_max": 0.3
+    }
+  },
+  {
+    "model": 30,
+    "val_map": 0.02977319061756134,
+    "config": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "enable_affine": true,
+      "color_jitter_brightness": 0.2,
+      "color_jitter_contrast": 0.5,
+      "color_jitter_saturation": 0.2,
+      "color_jitter_hue": 0.1,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": true,
+      "enable_affine_shear": true,
+      "affine_rotate_min": -18,
+      "affine_rotate_max": 20,
+      "affine_shear_min": -20,
+      "affine_shear_max": 15
+    }
+  }
+]

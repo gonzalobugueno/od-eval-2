@@ -1,0 +1,456 @@
+[
+  {
+    "trial_number": 0,
+    "value": 0.03988448902964592,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "color_jitter_brightness": 0.2308960294879046,
+      "color_jitter_contrast": 0.4361043403813796,
+      "color_jitter_saturation": 0.14896456066636754,
+      "color_jitter_hue": 0.18401889827308776,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "affine_scale_min": 0.0909766850633183,
+      "affine_scale_max": 0.38341820316339,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": true,
+      "affine_shear_min": -15.31814779200157,
+      "affine_shear_max": 18.543122158446018
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 1,
+    "value": 0.0446958988904953,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -18.339482643745708,
+      "affine_rotate_max": 16.66560506830946,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 2,
+    "value": 0.026489265263080597,
+    "params": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": true,
+      "color_jitter_brightness": 0.22797784088113288,
+      "color_jitter_contrast": 0.40978082930463255,
+      "color_jitter_saturation": 0.43463019133259273,
+      "color_jitter_hue": 0.14139244547694998,
+      "enable_affine": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 3,
+    "value": 0.04230562597513199,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "color_jitter_brightness": 0.3342097169622008,
+      "color_jitter_contrast": 0.4800025786474541,
+      "color_jitter_saturation": 0.3497070023866904,
+      "color_jitter_hue": 0.1854535340269582,
+      "enable_affine": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 4,
+    "value": 0.04388546943664551,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "color_jitter_brightness": 0.20673953068595102,
+      "color_jitter_contrast": 0.1127693387835497,
+      "color_jitter_saturation": 0.41390875235567615,
+      "color_jitter_hue": 0.1549161175840751,
+      "enable_affine": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 5,
+    "value": 0.043032992631196976,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 6,
+    "value": 0.026433629915118217,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "color_jitter_brightness": 0.462977227067781,
+      "color_jitter_contrast": 0.3942265870036685,
+      "color_jitter_saturation": 0.2382321234283622,
+      "color_jitter_hue": 0.17427485116292196,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 7,
+    "value": 0.02505304105579853,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": true,
+      "color_jitter_brightness": 0.20117914637245948,
+      "color_jitter_contrast": 0.4050057734646244,
+      "color_jitter_saturation": 0.49718185715778296,
+      "color_jitter_hue": 0.1251202788587742,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -19.301606789217644,
+      "affine_rotate_max": 16.88466322142522,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 8,
+    "value": 0.030086729675531387,
+    "params": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": true,
+      "color_jitter_brightness": 0.39354603446267367,
+      "color_jitter_contrast": 0.4596263353690486,
+      "color_jitter_saturation": 0.25440574463433596,
+      "color_jitter_hue": 0.12441681652245623,
+      "enable_affine": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 9,
+    "value": 0.03330333158373833,
+    "params": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 10,
+    "value": 0.019705384969711304,
+    "params": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -16.432771996238465,
+      "affine_rotate_max": 15.148721085529816,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 11,
+    "value": 0.04714757204055786,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "affine_scale_min": 0.18796364830177004,
+      "affine_scale_max": 0.20160556506500124,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -18.517025625927655,
+      "affine_rotate_max": 19.50820020054424,
+      "enable_affine_shear": true,
+      "affine_shear_min": -19.424137233879602,
+      "affine_shear_max": 15.001345476705026
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 12,
+    "value": 0.031166594475507736,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "affine_scale_min": 0.1997626258097611,
+      "affine_scale_max": 0.200084226578598,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -18.547372035813943,
+      "affine_rotate_max": 19.913349727477968,
+      "enable_affine_shear": true,
+      "affine_shear_min": -19.894695850887953,
+      "affine_shear_max": 15.081326329304252
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 13,
+    "value": 0.029592365026474,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "affine_scale_min": 0.18937008606203293,
+      "affine_scale_max": 0.19164245156464213,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -17.880435333556402,
+      "affine_rotate_max": 19.837360990837436,
+      "enable_affine_shear": true,
+      "affine_shear_min": -19.689390906996568,
+      "affine_shear_max": 15.301358186380329
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 14,
+    "value": 0.0330033004283905,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -19.89230320568225,
+      "affine_rotate_max": 17.31429715404746,
+      "enable_affine_shear": true,
+      "affine_shear_min": -17.724813023921318,
+      "affine_shear_max": 16.72607067275471
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 15,
+    "value": 0.013246222399175167,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "affine_scale_min": 0.14041780621479616,
+      "affine_scale_max": 0.2812294952007153,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -17.025348237104048,
+      "affine_rotate_max": 18.343537018574146,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 16,
+    "value": 0.014399123378098011,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "affine_scale_min": 0.13983711376770613,
+      "affine_scale_max": 0.49400480413988535,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -15.054960622770343,
+      "affine_rotate_max": 16.035883442509206,
+      "enable_affine_shear": true,
+      "affine_shear_min": -18.047271551131086,
+      "affine_shear_max": 19.902667972110173
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 17,
+    "value": 0.044408854097127914,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 18,
+    "value": 0.041206978261470795,
+    "params": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -18.55327684790358,
+      "affine_rotate_max": 18.719877896771404,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 19,
+    "value": 0.014209127984941006,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "affine_scale_min": 0.053397577151065426,
+      "affine_scale_max": 0.08155165893655524,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -18.01493057677981,
+      "affine_rotate_max": 16.481854556836517,
+      "enable_affine_shear": true,
+      "affine_shear_min": -16.004314276640013,
+      "affine_shear_max": 16.889384882829372
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 20,
+    "value": 0.03984566032886505,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": true,
+      "affine_shear_min": -18.79322787023266,
+      "affine_shear_max": 18.10627559438266
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 21,
+    "value": 0.04426325112581253,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 22,
+    "value": 0.037803780287504196,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 23,
+    "value": 0.03410341218113899,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 24,
+    "value": 0.02280704863369465,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "affine_scale_min": 0.16723626352270698,
+      "affine_scale_max": 0.34773809725584326,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -19.194524365776832,
+      "affine_rotate_max": 18.507130479005863,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 25,
+    "value": 0.03706524521112442,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": false,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 26,
+    "value": 0.024705328047275543,
+    "params": {
+      "enable_horizontal_flip": false,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -17.146443116506234,
+      "affine_rotate_max": 17.781082140901148,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 28,
+    "value": 0.05569104477763176,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": false,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -18.631520297837287,
+      "affine_rotate_max": 15.739799078745644,
+      "enable_affine_shear": false
+    },
+    "state": "TrialState.COMPLETE"
+  },
+  {
+    "trial_number": 29,
+    "value": 0.008140814490616322,
+    "params": {
+      "enable_horizontal_flip": true,
+      "enable_color_jitter": false,
+      "enable_affine": true,
+      "enable_affine_scale": true,
+      "affine_scale_min": 0.16568583861431424,
+      "affine_scale_max": 0.27248332963809047,
+      "enable_affine_rotate": true,
+      "affine_rotate_min": -18.594385748834284,
+      "affine_rotate_max": 15.575336909291119,
+      "enable_affine_shear": true,
+      "affine_shear_min": -16.384464583129535,
+      "affine_shear_max": 19.474027393256858
+    },
+    "state": "TrialState.COMPLETE"
+  }
+]
+
